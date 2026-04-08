@@ -23,9 +23,9 @@ Create a `.env` file in the root:
 
 ```env
 PORT=5000
-MONGO_URI=mongodb+srv://bhabasmin9348_db_user:B68GFuMOmoSpdD4k@cluster0.3kqlyqk.mongodb.net/?appName=Cluster0
+MONGO_URI=mongodb+srv://:B68GF
 JWT_SECRET=smartQA1234
-GROQ_API_KEY=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
+GROQ_API_KEY=gsk_2Ndfghj
 ```
 
 ---
@@ -109,14 +109,6 @@ curl -X POST http://localhost:5000/api/ask \
 
 ---
 
-##  5. Get Ask History (Bonus)
-
-```bash
-curl http://localhost:5000/api/ask/history \
--H "Authorization: Bearer YOUR_TOKEN"
-```
-
----
 
 ##  Notes
 
